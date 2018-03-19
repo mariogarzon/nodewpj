@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create User</title>
+</head>
+<body>
+  <h1>Create User</h1>
+  <hr>
+  <form action="create_user.html" method="get" enctype="application/x-www-form-urlencoded" >
+    <label>Name:</label>
+    <input type="text" name="username" placeholder="username" size="30" maxlength="12" /><br>
+    <label>Birthday:</label>
+    <input type="date" name="birthday" /><br>
+    <label>email:</label>
+    <input type="email" name="email" /><br>
+    <label>url:</label>
+    <input type="url" name="sitiopersonal" /><br>
+    <fieldset>
+        <legend>User Form</legend>
+        <label>Password</label>
+        <input type="text" name="password" placeholder="password" size="30" maxlength="08"/><br>
+        <label><font size="-1">Radio button</font></label><br>
+        Select your favourite superheroe<br>
+        <input type="radio" name="superheroe" value="true" > Superman, Batman, Wonder Woman, Flash, Thor & Hulk<br>
+        <input type="radio" name="superheroe" value="false"checked="checked" > superhero can be Batman or Wonder Woman becouse they rock! your call
+        <!-- <input type="radio" name="superheroe" value="true" checked> Superhero can be Batman or Wonder Woman becouse they rock! your call -->
+      <hr> 
+      <form>
+        <label><font size="-1">Checkbox group</font></label><br>
+        Select your favourite video game<br>
+        <input type="checkbox" name="videogames" value="Fifa" checked="checked" > Fifa<br>
+        <input type="checkbox" name="videogames" value="NHL" > NHL<br>
+        <input type="checkbox" name="videogames" value="Resident Evil"> Resident Evil<br>
+        <input type="checkbox" name="videogames" value="Uncharted" checked > Uncharted<br>
+        <input type="hidden" name="userid" value="2300" >
+        
+      </form>
+    <input type="image" width="50" height="50" src="img/register_button.png" >   
+    </fieldset> 
+  </form>
+  <form action="search" method="get" enctype="application/x-www-form-urlencoded" >
+    <div>
+        <label><font size="-1">Search</font></label><br>
+      <input type="search" id="mySearch" name="q" size="30">
+      <button type="submit" formaction="https://www.google.ca/search">Search</button>
+    </div>
+  </form>
+</body>
+</html>

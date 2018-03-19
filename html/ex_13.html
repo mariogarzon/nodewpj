@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create User</title>
+</head>
+<body>
+    <h1>Create User</h1>
+    <hr>
+    <form method="post" enctype="multipart/form-data">
+        <label>Name</label>
+        <textarea name="name" placeholder="name" rows="1" cols="20"></textarea><br>
+        <label>Select your favorite movie</label>
+        <select name="favorite movie">
+            <option value="">Please select a Movie</option>
+            <option value="deadpool">Deadpool</option>
+            <option value="batman_vs_ superman">Batman v Superman</option>
+            <option value="civil_war">Captain America: Civil War</option>
+            <option value="doctor_strange" >Doctor Strange</option>
+            <option value="suicide_squad">Suicide Squad</option>
+            <option value="apocalypse">X-Men: Apocalypse</option>
+            <option value="gotg_vol2">Guardians of the Galaxy Vol 2</option>
+            <option value="justice_league">Justice League</option>
+            <option value="logan">Logan</option>
+            <option value="homecoming">Spider-Man: Homecoming</option>
+            <option value="wonder_woman"selected="selected">Wonder Woman</option>
+            <option value="thor_ragnarok">Thor: Ragnarok</option>
+            <option value="black_panther">Black Panther</option>
+        </select><br>
+        <label>about you</label><br>
+        <textarea name="about" placeholder="Please let us know about your self" rows="10" cols="50"></textarea>
+
+        <div>
+            <label for="profile_pic">Choose avatar image</label>
+            <input type="file" id="profile_pic" name="profile_pic" accept=".jpg, .jpeg, .png">
+        </div>
+        <button type="reset" value="Reset">Clear Form</button>
+        <button type="submit" value="Submit">Add new user</button>                  
+    </form>
+</body>
+</html>
