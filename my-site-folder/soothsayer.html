@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Soothsayer</title>
+    <style type="text/css">
+        body {
+                font-family: Arial, Helvetica, sans-serif;
+        }
+        li{
+            text-align: center;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a:link {
+                color: black;
+                text-decoration-line: none;
+                padding: 0px 20px;
+        }
+        a:visited {
+                color: #808080;
+                text-decoration-line: none;
+                padding: 0px 20px;
+        }
+        a:hover {
+                color: #7a3b2e;
+                text-decoration-line: none;
+                padding: 0px 20px;
+        }
+        h1 {
+                font-size: 50px; 
+        }
+        table {
+            border-spacing: 10px;
+        }
+        td#marcador {
+            padding: 5px 10px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: darkgray;
+        }
+        tbody{
+            text-align: center;
+        }
+        #teams16, #match49, #match50, #match53, #match54, #match51, #match52, #match55, #match56{
+            background-color: #DCDCDC;
+            border: 1px solid gray;
+        }
+        #teams8, #match57, #match58, #match59, #match60{
+            background-color: #C0C0C0;
+            border: 1px solid gray;
+        }
+        #teams4, #match61, #match62{
+            background-color: #A8A8A8;
+            border: 1px solid gray;
+        }
+        #match63{
+            background-color: #808080;
+            border: 1px solid #404040;
+        }
+        #final, #match64{
+            background-color: #606060;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body background="assets/imgs/textures/grass_big.png" >
+    <header>   
+        <a><center><img src="assets/imgs/logo russia 2018.png" width="100" height="100"></center></a>
+    </header>
+    <hr>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html"> Home </a>
+                <a href="history.html">  History  </a> 
+                <a href="host_cities.html">  Host cities  </a>
+                <a href="teams.html"> Teams </a>
+                <a href="groups.html"> Groups </a>
+                <a href="soothsayer.html"> Soothsayer </a>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <h1 style="font-family:arial;" align="center">Soothsayer</h1>
+    </section>    
+    
+    
+    <table class="matches" align="center">
+        <thead>
+            <tr id="head">
+                <th id="teams16">16 Teams</th>
+                <th id="teams8">8 Teams</th>
+                <th id="teams4">4 teams</th>
+                <th id="final">Final</th>
+                <th id="teams4">4 Teams</th>
+                <th id="teams8">8 Teams</th>
+                <th id="teams16">16 Teams</th>
+            </tr>
+        </thead>
+        <tfoot>
+                <tr>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr Id="1">
+                <td id="match49">(Match 49)<br>Winner Group A Vs Second Group B</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td id="match51">(Match 51)<br>Winner Group B Vs Second Group A</td>
+            </tr>
+            <tr Id="2">
+                <td> </td>
+                <td id="match57">(Match 57)<br>W49 Vs W50</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td id="match59">(Match 59)<br>W51 Vs W52</td>
+                <td> </td>
+            </tr>
+            <tr Id="3">
+                <td id="match50">(Match 50)<br>Winner Group C Vs Second Group D</td>
+                <td> </td>
+                <td> </td>
+                <td id="match64">(Match 64)<br>FINAL<br>W61 Vs W62</td>
+                <td> </td>
+                <td> </td>
+                <td id="match52">(Match 52)<br>Winner Group D Vs Second Group C</td>
+            </tr>
+            <tr Id="4">
+                <td></td>
+                <td> </td>
+                <td id="match61">(Match 61)<br>W57 Vs W58</td>
+                <td align="center"> </td>
+                <td id="match62">(Match 62)<br>W59 Vs W60</td>
+                <td> </td>
+                <td></td>
+            </tr>
+            <tr Id="5">
+                <td id="match53">(Match 53)<br>Winner Group E Vs Second Group F</td>
+                <td> </td>
+                <td></td>
+                <td id="match63">(Match 63)<br>3rd<br>L61 Vs L62</td>
+                <td> </td>
+                <td> </td>
+                <td id="match55">(Match 55)<br>Winner Group F Vs Second Group E</td>
+            </tr>
+            <tr Id="6">
+                <td> </td>
+                <td id="match58">(Match 58)<br>W53 Vs W54</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td id="match60">(Match 60)<br>W55 Vs W56</td>
+                <td> </td>
+            </tr>
+            <tr Id="7">
+                <td id="match54">(Match 54)<br>Winner Group G Vs Second Group H</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td></td>
+                <td> </td>
+                <td id="match56">(Match 56)<br>Winner Group H Vs Second Group G</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
